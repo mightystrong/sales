@@ -47,5 +47,6 @@ end
 
 gem 'devise', '~> 3.4.1'
 gem 'paperclip', '~> 4.2.1'
+gem 'aws-sdk', '< 2.0'
 
 gem 'rails_12factor', group: :production
