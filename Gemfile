@@ -45,6 +45,7 @@ group :development do
 
   gem 'stripe-ruby-mock'
   gem 'database_cleaner'
+  gem 'rails_best_practices'
 end
 
 gem 'devise', '~> 3.4.1'
