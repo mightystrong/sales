@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
 # Use postgresql as the database for Active Record
@@ -48,5 +47,7 @@ end
 gem 'devise', '~> 3.4.1'
 gem 'paperclip', '~> 4.2.1'
 gem 'aws-sdk', '< 2.0'
+gem 'stripe', '~> 1.26.0'
+gem 'httparty'
 
 gem 'rails_12factor', group: :production
